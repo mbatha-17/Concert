@@ -87,6 +87,7 @@ nav svg{
     padding: 60px;
     margin-top: 40px;
     margin-bottom: 40px;
+
 }
 
 h4{
@@ -94,14 +95,17 @@ h4{
     margin-bottom: 20px;
 }
 .row{
-    display: grid;
+     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+    grid-gap: 10px; 
     padding-top: 2opx;
 }
 
 .column{
     background: gray;
+}
+.column:hover{
+    border: 4px solid white;
 }
 
 h5{
@@ -176,11 +180,21 @@ position: absolute;
     display: none;
 } 
 
+.program{
+    height: 100%;
+}
+
 .discover{
+    background-image: url(image/about_bg_01.png);
+    background-size: cover;
+     background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
     padding: 40px 80px;
     width: 60%;
     margin: 40px;
 }
+
 .discover h3{
     color: red;
     font-size: 25px;
@@ -199,3 +213,28 @@ position: absolute;
     font-size: 40px;
 }
 
+.partner{
+    text-align: center;
+    color: black;
+}
+
+.partners{
+    background: grey;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 60px;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    padding-bottom: 40px;
+}
+
+.credits{
+    display: inline;
+}

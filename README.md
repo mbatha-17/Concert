@@ -10,16 +10,11 @@
 ## Project Presentation (LOOM)
 Live Concert - 10 May 2024- Watch Video
 
-
+https://www.loom.com/share/489b7f8b414140678f67411af89acc39?sid=9e8af490-22a9-4ac5-a8c0-ec46ac860879
 
 ## Live Demo (if available)
 
 [Live Demo Link]
-
-
-## Screnshots
-![image](https://user-images.githubusercontent.com/82038825/192002325-5da96f06-ffc4-4b1d-a7db-c63bf974f567.png)
-![image](https://user-images.githubusercontent.com/82038825/192002522-636a01e3-7b43-406f-8e3e-c7e6feb1058d.png)
 
 
 To get a local copy, run the fllowing command.
@@ -49,8 +44,7 @@ Run live server
 ## Authors
 
 👤 **Author**
-
-<!-- - GitHub: [@github](https://github.com/becky449) -->
+https://github.com/mbatha-17/Concert
 
 ## 🤝 Contributing
 
