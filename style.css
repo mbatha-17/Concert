@@ -121,6 +121,21 @@ h5{
 u{
     text-decoration: underline;
 }
+
+.discover{
+    background-image: url(image/mobile_intro_bg.png);
+    background-size: cover;
+     background-position: center;
+    background-repeat: no-repeat; 
+}
+
+#featured-artists{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: black;
+    text-align: center;
+}
+
    @media(max-width: 768px){ 
      .links-container{ 
         flex-direction: column; 
@@ -185,13 +200,12 @@ position: absolute;
 }
 
 .discover{
-    background-image: url(image/about_bg_01.png);
+    background-image: url(image/mobile_intro_bg.png);
     background-size: cover;
      background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    padding: 40px 80px;
-    width: 60%;
+    padding: 40px 0px;
     margin: 40px;
 }
 
@@ -226,15 +240,23 @@ position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 60px;
     margin: 60px;
 }
 
-img{
+.img{
     width: 60px;
     height: 60px;
     padding-bottom: 40px;
 }
 
+.live{
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+}
+
 .credits{
     display: inline;
 }
+
